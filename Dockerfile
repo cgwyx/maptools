@@ -1,5 +1,5 @@
-FROM conda/miniconda3
-#FROM continuumio/miniconda3
+#FROM conda/miniconda3
+FROM continuumio/miniconda3
 
 RUN conda update --all -y &&\
     conda config --add channels bioconda &&\
